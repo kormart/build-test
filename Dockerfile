@@ -15,6 +15,6 @@ COPY . .
 
 # Expose a port for the container
 EXPOSE 3000
-ENTRYPOINT ["/bin/bash", "-c", "echo hello"]
+# ENTRYPOINT ["/bin/bash", "-c", "echo hello"]
 # Start the application when the container starts
-# CMD [ "npm", "start" ]
+CMD [ "npm", "start" ]
