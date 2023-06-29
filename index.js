@@ -4,4 +4,4 @@ function printMessage(message) {
 }
 
 // Call the function with the desired message
-printMessage("Hello  Europe!");
+printMessage("Hello Europe!");
